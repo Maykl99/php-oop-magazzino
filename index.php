@@ -15,11 +15,12 @@
     </style>
   </head>
   <body>
-    <h1>istanze della classe</h1>
+   
     <div class="container-fluid">
         <div class="row">
             <div class="offset-md-2 col-md-8">
-                <?php require_once('classi.php'); ?>
+                <h1 class="card mt-3">istanze della classe</h1>
+                <?php require_once('classi/classi.php'); ?>
             </div>
         </div>
     </div>
